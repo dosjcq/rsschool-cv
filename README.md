@@ -1,2 +1,1 @@
-# rsschool-cv
-CV for RSschool
+https://dosjcq.github.io/rsschool-cv/cv
