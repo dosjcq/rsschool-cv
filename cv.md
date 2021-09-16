@@ -29,3 +29,12 @@ String.prototype.toJadenCase = function (str = "How can mirrors be real if our e
     .join(" ");
 };
 ```
+### Courses:
+* HTML5, CSS3, Sass on YouTube channel [Фрилансер по жизни - IT и фриланс](https://www.youtube.com/c/FreelancerLifeStyle)
+* JavaScript on Udemy course [Современный JavaScript + Vue с нуля на реальных проектах.](https://www.udemy.com/course/modern-javascript-from-beginning/)
+* Vue.js on Udemy course [Vue - The Complete Guide (w/ Router, Vuex, Composition API)](https://www.udemy.com/course/vuejs-2-the-complete-guide/)
+* Nuxt.js on Udemy course [Nuxt.js - Vue.js on Steroids](https://www.udemy.com/course/nuxtjs-vuejs-on-steroids/)
+### Languages:
+* Russian - Native
+* English - Upper-intermediate/Advanced (completed Advanced English Language Course at the Institution of Linguistic and Pedagogical Education of the National Research University of Electronic Technology (MIET) 
+* Spanish - Basic
