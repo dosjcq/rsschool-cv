@@ -5,6 +5,7 @@
 * **Telegram**: dosjcq
 * **Email**: nagibin.artyom1999@gmail.com
 * [Github](https://github.com/dosjcq)
+
 ### About Myself:
 I've started my educataion as a web-developer in December 2020. Before I've tried to find myself in programming microcontrollers, but it wasn't interesting for me. My growing interest in programming led me to enter the master's program in software engineering at MIET. And now I'm first year student.
 
