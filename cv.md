@@ -19,6 +19,7 @@ Since childhood, I have an interest in languages. That's why I started learning 
 * Git, GitHub
 * VS Code
 * Figma
+
 ## Code Example:
 
 **Jaden Casing Strings KATA from CODEWARS:** *Jaden Smith, the son of Will Smith, is the star of films such as The Karate Kid (2010) and After Earth (2013). Jaden is also known for some of his philosophy that he delivers via Twitter. When writing on Twitter, he is known for almost always capitalizing every word. For simplicity, you'll have to capitalize each word, check out how contractions are expected to be in the example below.*
@@ -32,11 +33,13 @@ String.prototype.toJadenCase = function (str = "How can mirrors be real if our e
     .join(" ");
 };
 ```
+
 ## Courses:
 * HTML5, CSS3, Sass on YouTube channel [Фрилансер по жизни - IT и фриланс](https://www.youtube.com/c/FreelancerLifeStyle)
 * JavaScript on Udemy course [Современный JavaScript + Vue с нуля на реальных проектах.](https://www.udemy.com/course/modern-javascript-from-beginning/)
 * Vue.js on Udemy course [Vue - The Complete Guide (w/ Router, Vuex, Composition API)](https://www.udemy.com/course/vuejs-2-the-complete-guide/)
 * Nuxt.js on Udemy course [Nuxt.js - Vue.js on Steroids](https://www.udemy.com/course/nuxtjs-vuejs-on-steroids/)
+
 ## Languages:
 * Russian - Native
 * English - Upper-intermediate/Advanced (completed Advanced English Language Course at the Institution of Linguistic and Pedagogical Education of the National Research University of Electronic Technology (MIET) 
