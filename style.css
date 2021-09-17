@@ -270,3 +270,7 @@ body {
 .footer__github-link:hover {
   color: black;
 }
+
+.footer-img-rsschool {
+  width: 40%;
+}
