@@ -15,18 +15,33 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header header_background-theme_purple">
       <nav class="navigation">
-        <a href="" class="navigation__link">About</a>
-        <a href="" class="navigation__link">Skills</a>
-        <a href="" class="navigation__link">Code Example</a>
-        <a href="" class="navigation__link">Courses</a>
-        <a href="" class="navigation__link">Languages</a>
+        <a href="" class="navigation__link navigation__link_text-color_white"
+          >About</a
+        >
+        <a href="" class="navigation__link navigation__link_text-color_white"
+          >Skills</a
+        >
+        <a href="" class="navigation__link navigation__link_text-color_white"
+          >Code Example</a
+        >
+        <a href="" class="navigation__link navigation__link_text-color_white"
+          >Courses</a
+        >
+        <a href="" class="navigation__link navigation__link_text-color_white"
+          >Languages</a
+        >
       </nav>
     </header>
     <main class="main-block">
       <section class="introduce-content">
-        <h1 class="introduce-content__my-name">
+        <h1
+          class="
+            introduce-content__my-name
+            introduce-content__my-name_text-color_gray
+          "
+        >
           Hello, my name is Artem Nagibin
         </h1>
         <img
@@ -36,40 +51,50 @@
         />
       </section>
       <section class="information">
-        <h2 class="information__personal-info-heading">Pesonal information</h2>
+        <h2 class="section-heading">Personal information</h2>
         <article class="contact-info">
-          <h3 class="contact-info__contact-heading">Contacts</h3>
+          <h3 class="article-heading">Contacts</h3>
           <ul class="contact-info__list">
             <li class="contact-info__item">
-              Phone:<a href="tel:+79859822916" class="contact-information__link"
+              Phone:<a
+                href="tel:+79859822916"
+                class="
+                  contact-info__link contact-info__link_text-decor_underline
+                "
                 >+7-985-982-29-16</a
               >
             </li>
             <li class="contact-info__item">
               Telegram:<a
                 href="https://telegram.me/dosjcq"
-                class="contact-info__link"
+                class="
+                  contact-info__link contact-info__link_text-decor_underline
+                "
                 >@dosjcq</a
               >
             </li>
             <li class="contact-info__item">
               Email:<a
                 href="mailto:nagibin.artyom1999@gmail.com"
-                class="contact-info__link"
+                class="
+                  contact-info__link contact-info__link_text-decor_underline
+                "
                 >nagibin.artyom1999@gmail.com</a
               >
             </li>
             <li class="contact-info__item">
               Github:<a
                 href="https://github.com/dosjcq"
-                class="contact-info__link"
+                class="
+                  contact-info__link contact-info__link_text-decor_underline
+                "
                 >dosjcq</a
               >
             </li>
           </ul>
         </article>
         <article class="about-info">
-          <h3 class="about-info__about-heading">About me</h3>
+          <h3 class="article-heading">About me</h3>
           <p class="about-info__about-content">
             I've started my educataion as a web-developer in December 2020.
             Before I've tried to find myself in programming microcontrollers,
@@ -80,11 +105,11 @@
           <p class="about-info__about-content">
             My study as web-developer began with observing my friends who were
             doing their pet-project. That was very interesting and something new
-            for me, so I decedid to begin learning *HTML5*, *CSS3* and *Sass*.
-            After that I started studying *JS* and *Vue.js*, because they were
-            developing their project with Vue. During my education I made some
-            learning projects on Vue. Also, now I'm learning *Nuxt.js* to make
-            Vue.js applications more powerful.
+            for me, so I decedid to begin learning HTML5, CSS3 and Sass. After
+            that I started studying JS and Vue.js, because they were developing
+            their project with Vue. During my education I made some learning
+            projects on Vue. Also, now I'm learning Nuxt.js to make Vue.js
+            applications more powerful.
           </p>
           <p class="about-info__about-content">
             Since childhood, I have an interest in languages. That's why I
@@ -95,24 +120,66 @@
         </article>
       </section>
       <section class="information">
-        <h2 class="information__experience-heading">Experience</h2>
+        <h2 class="section-heading">Experience</h2>
         <article class="skills-info">
-          <h3 class="skills-info__skills-heading">Skills</h3>
+          <h3 class="article-heading">Skills</h3>
           <ul class="skills-info__skills-list">
-            <li class="skills-info__skills-item">HTML5, CSS3, Sass</li>
-            <li class="skills-info__skills-item">
+            <li
+              class="
+                skills-info__skills-item
+                skills-info__skills-item_text-color_gray
+              "
+            >
+              HTML5, CSS3, Sass
+            </li>
+            <li
+              class="
+                skills-info__skills-item
+                skills-info__skills-item_text-color_gray
+              "
+            >
               JavaScript, Vue.js, Nuxt.js
             </li>
-            <li class="skills-info__skills-item">Git, GitHub</li>
-            <li class="skills-info__skills-item">VS Code</li>
-            <li class="skills-info__skills-item">Figma</li>
+            <li
+              class="
+                skills-info__skills-item
+                skills-info__skills-item_text-color_gray
+              "
+            >
+              Git, GitHub
+            </li>
+            <li
+              class="
+                skills-info__skills-item
+                skills-info__skills-item_text-color_gray
+              "
+            >
+              VS Code
+            </li>
+            <li
+              class="
+                skills-info__skills-item
+                skills-info__skills-item_text-color_gray
+              "
+            >
+              Figma
+            </li>
           </ul>
         </article>
         <article class="code-example-info">
-          <h3 class="code-example-info__code-heading">Code Example</h3>
+          <h3 class="article-heading">Code Example</h3>
+          <div class="code-example-info_code-paste-block">
+            <p class="code-example-info_code-paste-paragraph">
+              String.prototype.toJadenCase = function (str = "How can mirrors be
+              real if our eyes aren't real") { <br />
+              return str .split(" ") .map((word) => word[0].toUpperCase() +
+              word.slice(1)) .join(" "); <br />
+              };
+            </p>
+          </div>
         </article>
         <article class="courses-info">
-          <h3 class="courses-info__courses-heading">Courses</h3>
+          <h3 class="article-heading">Courses</h3>
           <ul class="courses-info__courses-list">
             <li class="courses-info__courses-item">
               <a
@@ -145,7 +212,7 @@
           </ul>
         </article>
         <article class="languages-info">
-          <h3 class="languades-info__languages-heading">Languages</h3>
+          <h3 class="article-heading">Languages</h3>
           <ul class="languages-info__languages-list">
             <li class="languages-info__languages-item">Russian - Native</li>
             <li class="languages-info__languages-item">
@@ -159,10 +226,12 @@
         </article>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer footer_bacground-color_purple">
       <a href="" class="footer__github-link">GitHub</a>
       <p class="footer__info-paragraph">2021</p>
-      <a href="" class="footer__rsschool-link">rsschool</a>
+      <a href="https://rs.school/js/"
+        ><img src="./rs_school_js.svg" alt="rsSchool" width="40%"
+      /></a>
     </footer>
   </body>
 </html>

@@ -1,0 +1,272 @@
+html {
+  background-color: #333333;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header_background-theme_purple {
+  background-color: #9389d2;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  justify-items: center;
+}
+
+.navigation__link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  text-decoration: none;
+}
+
+.navigation__link:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #fff;
+  transition: width 0.3s ease-in-out;
+}
+
+.navigation__link:hover:after,
+.navigation__link:active:after {
+  width: 100%;
+}
+
+.navigation__link_text-color_white {
+  color: #fff;
+}
+
+.main-block {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.introduce-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.introduce-content__my-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  line-height: 120%;
+  font-weight: 500;
+  max-width: 70%;
+}
+
+.introduce-content__my-name_text-color_gray {
+  color: #333333;
+}
+
+.information {
+  margin-top: 100px;
+}
+
+.section-heading {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 500;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 60px;
+}
+
+.article-heading {
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.contact-info__list {
+  margin-top: 30px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.contact-info__item {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.contact-info__item::marker {
+  color: #9389d2;
+}
+
+.contact-info__item_text-color_gray {
+  color: #333333;
+}
+
+.contact-info__link {
+  margin-left: 8px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-info__link:hover,
+.contact-info__link:active {
+  color: #9389d2;
+}
+
+.contact-info__link_text-decor_underline {
+  text-decoration: underline;
+}
+
+.about-info {
+  margin-top: 60px;
+}
+
+.about-info__about-content {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  text-indent: 20px;
+  margin-top: 10px;
+}
+
+.about-info__about-content_text-color_gray {
+  color: #333333;
+}
+
+.about-info__about-content_text-color_gray {
+  color: #333333;
+}
+
+.skills-info {
+  margin-top: 60px;
+}
+
+.skills-info__skills-list {
+  margin-top: 30px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.skills-info__skills-item {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.skills-info__skills-item_text-color_gray {
+  color: #333333;
+}
+
+.skills-info__skills-item::marker {
+  color: #9389d2;
+}
+
+.code-example-info {
+  margin-top: 60px;
+}
+
+.code-example-info_code-paste-block {
+  display: flex;
+  justify-content: center;
+}
+
+.code-example-info_code-paste-paragraph {
+  margin-top: 30px;
+  max-width: 50%;
+  background-color: rgb(221, 216, 216);
+}
+
+.courses-info {
+  margin-top: 60px;
+}
+
+.courses-info__courses-list {
+  margin-top: 30px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.courses-info__courses-item {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.courses-info__courses-item::marker {
+  color: #9389d2;
+}
+
+.courses-info__courses-link {
+  transition: 0.3s ease-in-out;
+}
+
+.courses-info__courses-link:hover,
+.courses-info__courses-link:active {
+  color: #9389d2;
+}
+
+.languages-info {
+  margin-top: 60px;
+}
+
+.languages-info__languages-list {
+  margin-top: 30px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.languages-info__languages-item {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.languages-info__languages-item::marker {
+  color: #9389d2;
+}
+
+.footer {
+  margin-top: 100px;
+  padding: 20px 0 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.footer_bacground-color_purple {
+  background-color: #9389d2;
+}
+
+.footer__info-paragraph {
+  font-size: 30px;
+  line-height: 150%;
+  font-weight: 500;
+  color: #333333;
+}
+
+.footer__github-link {
+  font-size: 30px;
+  line-height: 150%;
+  font-weight: 500;
+  color: #333333;
+  transition: 0.3s ease-in-out;
+}
+
+.footer__github-link:hover {
+  color: black;
+}
