@@ -1,1 +1,1 @@
-https://dosjcq.github.io/rsschool-cv/cv
+https://dosjcq.github.io/rsschool-cv/
